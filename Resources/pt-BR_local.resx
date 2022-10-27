@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="are Portals" xml:space="preserve">
+    <value>são Portais</value>
+  </data>
+  <data name="are The Cannons" xml:space="preserve">
+    <value>são Os Canhões</value>
+  </data>
+  <data name="are The Guards" xml:space="preserve">
+    <value>são Os Guardas</value>
+  </data>
+  <data name="are the One-Ways" xml:space="preserve">
+    <value>são os One-Ways</value>
+  </data>
+  <data name="are the Player Doors" xml:space="preserve">
+    <value>são as Portas de Jogador</value>
+  </data>
+  <data name="Arrow keys" xml:space="preserve">
+    <value>Setas</value>
+  </data>
+  <data name="BackSpace/left arrow" xml:space="preserve">
+    <value>BackSpace/seta para esquerda</value>
+  </data>
+  <data name="Be careful!" xml:space="preserve">
+    <value>Tome coidado!</value>
+  </data>
+  <data name="Boxes" xml:space="preserve">
+    <value>Caixas</value>
+  </data>
+  <data name="Caution!" xml:space="preserve">
+    <value>Atenção!</value>
+  </data>
+  <data name="Change game language" xml:space="preserve">
+    <value>Mudar idioma do jogo</value>
+  </data>
+  <data name="Change Options and Settings" xml:space="preserve">
+    <value>Mudar Opções e Configurações</value>
+  </data>
+  <data name="Coins" xml:space="preserve">
+    <value>Moedas</value>
+  </data>
+  <data name="Collected Coins" xml:space="preserve">
+    <value>Moedas Coletadas</value>
+  </data>
+  <data name="Collected Keys" xml:space="preserve">
+    <value>Chaves Coletadas</value>
+  </data>
+  <data name="Completed Level" xml:space="preserve">
+    <value>Nível Completo</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="Create Custom Levels" xml:space="preserve">
+    <value>Criar Níveis Personalizados</value>
+  </data>
+  <data name="Custom description will be available soon" xml:space="preserve">
+    <value>Descrição personalizada estará disponível em breve</value>
+  </data>
+  <data name="Dev Code" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="Eliminated" xml:space="preserve">
+    <value>Eliminado</value>
+  </data>
+  <data name="Enable/Disable game music" xml:space="preserve">
+    <value>Ativar/Desativar música do jogo</value>
+  </data>
+  <data name="Enable/Disable game sound effects" xml:space="preserve">
+    <value>Ativar/Desativar efeitos sonoros do jogo</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Inglês</value>
+  </data>
+  <data name="enter/SpaceBar/right arrow" xml:space="preserve">
+    <value>enter/barra de espaço/seta para direita</value>
+  </data>
+  <data name="Execute special commands (developer only)" xml:space="preserve">
+    <value>Executar comandos especiais (apenas para o desenvolvedor)</value>
+  </data>
+  <data name="Field of View" xml:space="preserve">
+    <value>Campo de Visão</value>
+  </data>
+  <data name="Game Paused" xml:space="preserve">
+    <value>Jogo Pausado</value>
+  </data>
+  <data name="Go back" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="Go back to Main Menu" xml:space="preserve">
+    <value>Voltar para o Menu Principal</value>
+  </data>
+  <data name="Grab box" xml:space="preserve">
+    <value>Agarrar caixa</value>
+  </data>
+  <data name="Hold" xml:space="preserve">
+    <value>Segure</value>
+  </data>
+  <data name="is a Box" xml:space="preserve">
+    <value>é uma Caixa</value>
+  </data>
+  <data name="is a door that only opens after collecting a specific key" xml:space="preserve">
+    <value>é uma porta que abre apenas ao coletar uma chave específica</value>
+  </data>
+  <data name="is a door that only opens after collecting some coins" xml:space="preserve">
+    <value>é uma porta que abre apenas ao coletar moedas</value>
+  </data>
+  <data name="is a Pressure Button" xml:space="preserve">
+    <value>é um Botão de Pressão</value>
+  </data>
+  <data name="is The Seeker" xml:space="preserve">
+    <value>é O Perseguidor</value>
+  </data>
+  <data name="It opens doors" xml:space="preserve">
+    <value>Ele abre portas</value>
+  </data>
+  <data name="It stays asleep until you get too close!" xml:space="preserve">
+    <value>Ele fica adormecido até você chegar perto demais!</value>
+  </data>
+  <data name="Keys" xml:space="preserve">
+    <value>Chaves</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Nível</value>
+  </data>
+  <data name="Level Completed" xml:space="preserve">
+    <value>Nível Completo</value>
+  </data>
+  <data name="Level Creator" xml:space="preserve">
+    <value>Criar Nível</value>
+  </data>
+  <data name="Levels" xml:space="preserve">
+    <value>Níveis</value>
+  </data>
+  <data name="Main Menu" xml:space="preserve">
+    <value>Menu Principal</value>
+  </data>
+  <data name="Modo Sobrevivência" xml:space="preserve">
+    <value>Modo Sobrevivência</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Mover</value>
+  </data>
+  <data name="Move Player" xml:space="preserve">
+    <value>Mover Jogador</value>
+  </data>
+  <data name="Movement" xml:space="preserve">
+    <value>Movimentação</value>
+  </data>
+  <data name="Multiplayer" xml:space="preserve">
+    <value>Multijogador</value>
+  </data>
+  <data name="Music" xml:space="preserve">
+    <value>Música</value>
+  </data>
+  <data name="Navigate" xml:space="preserve">
+    <value>Navegar</value>
+  </data>
+  <data name="Next Level" xml:space="preserve">
+    <value>Próximo Nível</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>Desligado</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>Ligado</value>
+  </data>
+  <data name="Only the player with the specified color can cross" xml:space="preserve">
+    <value>Apenas o jogador da cor informada pode passar</value>
+  </data>
+  <data name="Open creator (HTML file)" xml:space="preserve">
+    <value>Abrir criador (arquivo HTML)</value>
+  </data>
+  <data name="Open Level Creator HTML file on your browser" xml:space="preserve">
+    <value>Abrir o arquivo HTML do criador de nível no seu navegador</value>
+  </data>
+  <data name="Open Levels List" xml:space="preserve">
+    <value>Abrir Lista de Níveis</value>
+  </data>
+  <data name="Open Tutorials List" xml:space="preserve">
+    <value>Abrir Lista de Tutoriais</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="Paste map JSON (from clipboard) to load and play the level" xml:space="preserve">
+    <value>Colar o JSON (área de transferência) do mapa para carregar e jogar o nível</value>
+  </data>
+  <data name="Paste map JSON value" xml:space="preserve">
+    <value>Colar JSON do level</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pausar</value>
+  </data>
+  <data name="Portals" xml:space="preserve">
+    <value>Portais</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Português</value>
+  </data>
+  <data name="Pressed Buttons" xml:space="preserve">
+    <value>Botões Pressionados</value>
+  </data>
+  <data name="Quick Restart" xml:space="preserve">
+    <value>Reinício Rápido</value>
+  </data>
+  <data name="Remember to restart the level in case you get stuck" xml:space="preserve">
+    <value>Lembre-se de reiniciar o nível caso fique preso</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Reiniciar</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Selecionar</value>
+  </data>
+  <data name="Select another" xml:space="preserve">
+    <value>Selecione outro</value>
+  </data>
+  <data name="Select Level" xml:space="preserve">
+    <value>Selecionar Nível</value>
+  </data>
+  <data name="Select Tutorial" xml:space="preserve">
+    <value>Selecionar Tutorial</value>
+  </data>
+  <data name="Sometimes two players are needed to complete a level" xml:space="preserve">
+    <value>Às vezes dois jogadores são necessários para completar um nível</value>
+  </data>
+  <data name="Sometimes you can't see everything arround you" xml:space="preserve">
+    <value>Às vezes você não consegue ver tudo ao seu redor</value>
+  </data>
+  <data name="Sound Effects" xml:space="preserve">
+    <value>Efeitos Sonoros</value>
+  </data>
+  <data name="Start Survival Mode" xml:space="preserve">
+    <value>Começar Modo Sobrevivência</value>
+  </data>
+  <data name="Start Tutorial" xml:space="preserve">
+    <value>Começar Tutorial</value>
+  </data>
+  <data name="Survival Mode" xml:space="preserve">
+    <value>Tutoriais</value>
+  </data>
+  <data name="The Cannons" xml:space="preserve">
+    <value>Os Canhões</value>
+  </data>
+  <data name="The Guards" xml:space="preserve">
+    <value>Os Guardas</value>
+  </data>
+  <data name="The Seekers" xml:space="preserve">
+    <value>Os Perseguidores</value>
+  </data>
+  <data name="These" xml:space="preserve">
+    <value>Esses</value>
+  </data>
+  <data name="They are fixed and undestructible" xml:space="preserve">
+    <value>Elas são fixas e indestrutíveis</value>
+  </data>
+  <data name="They move linearly" xml:space="preserve">
+    <value>Eles se movem linearmente</value>
+  </data>
+  <data name="They teleport you to another portal with the same letter" xml:space="preserve">
+    <value>Eles te teleportam para outro portal com a mesma letra</value>
+  </data>
+  <data name="This" xml:space="preserve">
+    <value>Essa</value>
+  </data>
+  <data name="This is a" xml:space="preserve">
+    <value>Este é um</value>
+  </data>
+  <data name="This one" xml:space="preserve">
+    <value>Esse</value>
+  </data>
+  <data name="to Start" xml:space="preserve">
+    <value>para Iniciar</value>
+  </data>
+  <data name="Tutorials" xml:space="preserve">
+    <value>Tutoriais</value>
+  </data>
+  <data name="up/down arrows" xml:space="preserve">
+    <value>setas para cima/baixo</value>
+  </data>
+  <data name="Use arrow keys or WASD to move" xml:space="preserve">
+    <value>Para se mover, utilize as setas do teclado ou WASD</value>
+  </data>
+  <data name="User Level" xml:space="preserve">
+    <value>Nível de Usuário</value>
+  </data>
+  <data name="Walls" xml:space="preserve">
+    <value>Paredes</value>
+  </data>
+  <data name="welcome to console puzzle game!" xml:space="preserve">
+    <value>bem-vindo ao console puzzle game!</value>
+  </data>
+  <data name="When awake, it'll chase you at any cost!" xml:space="preserve">
+    <value>Quando acordado, ele vai te caçar a qualquer custo!</value>
+  </data>
+  <data name="when pressed" xml:space="preserve">
+    <value>quando pressionado</value>
+  </data>
+  <data name="You are the letter" xml:space="preserve">
+    <value>Você é a letra</value>
+  </data>
+  <data name="You better get cover!" xml:space="preserve">
+    <value>É melhor você pegar cobertura!</value>
+  </data>
+  <data name="You can control the blue player with WASD keys" xml:space="preserve">
+    <value>Você pode controlar o jogador azul com as teclas WASD</value>
+  </data>
+  <data name="You can not pass through the walls" xml:space="preserve">
+    <value>Você não pode atravessar as paredes</value>
+  </data>
+  <data name="You can only cross to the direction the arrow is pointing to" xml:space="preserve">
+    <value>Você só pode atravessar na direção que a seta está apontando</value>
+  </data>
+  <data name="You can push or pull it (holding CTRL down)" xml:space="preserve">
+    <value>Você pode empurrar ou puxar ela (segurando CTRL)</value>
+  </data>
+  <data name="Your goal is to reach" xml:space="preserve">
+    <value>Seu objetivo é chegar no</value>
+  </data>
+</root>

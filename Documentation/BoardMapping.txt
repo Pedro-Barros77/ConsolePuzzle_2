@@ -1,0 +1,80 @@
+## Objects Mapping ##
+
+Blank: '( )'
+Player: '(P)'
+Player2: '(p)'
+Exit: '(@)'
+Wall: '[ ]'
+Coin: '($)'
+Portal: '|a|'
+PlayerDoor: '{P}'
+Box: '(#)'
+Key: '(a)'
+CoinDoor: '[2]'
+KeyDoor: '[a]'
+OneWay: '{>}'
+StandingButton: '(0)'
+CodeDoor: '{0}'
+Enemy_Guard: '(X)'
+Enemy_Cannon: '=(]'
+Enemy_Seeker: '|?|'
+
+
+## Default Json ##
+
+
+{
+  "mapping": [
+    "( )&( )&( )&( )&(@)",
+    "( )&( )&( )&( )&( )",
+    "( )&( )&( )&( )&( )",
+    "( )&( )&( )&( )&( )",
+    "(P)&( )&( )&( )&( )"
+  ],
+
+  "config": {
+    "enemiesData": [
+      {
+        "x": 0,
+        "y": 0,
+        "speed": 0,
+        "delay": 0,
+        "dir": "left",
+        "startDelay": 0,
+        "bulletSpeed": 0,
+        "rateOfFire": 0,
+        "sightRadius": 0
+      }
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "mapping": [
+    "[6]&($)&[8]&(@)&[8]",
+    "($)&[8]&($)&[8]&[8]",
+    "[4]&($)&[5]&[7]&($)",
+    "($)&[2]&[8]&[8]&[8]",
+    "(P)&[1]&($)&[3]&($)"
+  ],
+  "config": {
+    "enemiesData": []
+  }
+}
