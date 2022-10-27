@@ -1,0 +1,8 @@
+F:\Users\Pedro Henrique\source\repos\ConsolePuzzle_2\obj\Debug\net5.0-windows\ConsolePuzzle_2.csproj.AssemblyReference.cache
+F:\Users\Pedro Henrique\source\repos\ConsolePuzzle_2\obj\Debug\net5.0-windows\ConsolePuzzle_2.csproj.ResolveComReference.cache
+F:\Users\Pedro Henrique\source\repos\ConsolePuzzle_2\obj\Debug\net5.0-windows\ConsolePuzzle_2.Resources.pt-BR_local.resources
+F:\Users\Pedro Henrique\source\repos\ConsolePuzzle_2\obj\Debug\net5.0-windows\ConsolePuzzle_2.csproj.GenerateResource.cache
+F:\Users\Pedro Henrique\source\repos\ConsolePuzzle_2\obj\Debug\net5.0-windows\ConsolePuzzle_2.GeneratedMSBuildEditorConfig.editorconfig
+F:\Users\Pedro Henrique\source\repos\ConsolePuzzle_2\obj\Debug\net5.0-windows\ConsolePuzzle_2.AssemblyInfoInputs.cache
+F:\Users\Pedro Henrique\source\repos\ConsolePuzzle_2\obj\Debug\net5.0-windows\ConsolePuzzle_2.AssemblyInfo.cs
+F:\Users\Pedro Henrique\source\repos\ConsolePuzzle_2\obj\Debug\net5.0-windows\ConsolePuzzle_2.csproj.CoreCompileInputs.cache

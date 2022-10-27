@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-using System.Reflection;
-using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 using ConsolePuzzle_2.Utility;
 
 namespace ConsolePuzzle_2

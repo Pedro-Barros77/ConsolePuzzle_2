@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using ConsolePuzzle_2.Utility.Extensions;
-using static ConsolePuzzle_2.Utility.ConsoleUtility;
 using static ConsolePuzzle_2.Utility.Enums;
 
 namespace ConsolePuzzle_2.Services.Models

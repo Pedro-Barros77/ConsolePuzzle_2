@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsolePuzzle_2.Services.Models
+﻿namespace ConsolePuzzle_2.Services.Models
 {
     public class UIBlock
     {

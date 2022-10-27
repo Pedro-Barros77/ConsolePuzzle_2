@@ -1,25 +1,19 @@
-﻿using ConsolePuzzle_2;
-using ConsolePuzzle_2.Content;
+﻿using ConsolePuzzle_2.Content;
 using ConsolePuzzle_2.Content.Game_Objects;
 using ConsolePuzzle_2.Content.Game_Objects.Basics;
 using ConsolePuzzle_2.Content.Game_Objects.Collectables;
 using ConsolePuzzle_2.Content.Game_Objects.Enemies;
 using ConsolePuzzle_2.Content.Game_Objects.Gates;
 using ConsolePuzzle_2.Content.Game_Objects.Interactable;
-using ConsolePuzzle_2.Screens;
 using ConsolePuzzle_2.Utility.Extensions;
-using System;
-using System.Collections.Generic;
 using Newtonsoft.Json;
 using static ConsolePuzzle_2.Utility.Enums;
 using Newtonsoft.Json.Linq;
-using System.Reflection.PortableExecutable;
 using ConsolePuzzle_2.Services;
 using System.Runtime.InteropServices;
 using ConsolePuzzle_2.Services.Models;
 using System.Collections.Immutable;
 using System.Text.RegularExpressions;
-using System.Reflection;
 
 namespace ConsolePuzzle_2
 {

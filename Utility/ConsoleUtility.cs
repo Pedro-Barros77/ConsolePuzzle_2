@@ -7,7 +7,7 @@ namespace ConsolePuzzle_2.Utility
     {
         #region Console and kernel configs
         //Configuration to maximize console window
-        private static IntPtr ThisConsole = GetConsoleWindow();
+        private static readonly IntPtr ThisConsole = GetConsoleWindow();
         [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
         private static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
         private const int MAXIMIZE = 3;
@@ -46,8 +46,8 @@ namespace ConsolePuzzle_2.Utility
             IntPtr sysMenu = GetSystemMenu(handle, false);
             if (handle != IntPtr.Zero)
             {
-                DeleteMenu(sysMenu, SC_MINIMIZE, MF_BYCOMMAND);
-                DeleteMenu(sysMenu, SC_SIZE, MF_BYCOMMAND);
+                _ = DeleteMenu(sysMenu, SC_MINIMIZE, MF_BYCOMMAND);
+                _ = DeleteMenu(sysMenu, SC_SIZE, MF_BYCOMMAND);
             }
 
             //Disable console edit mode
@@ -57,15 +57,14 @@ namespace ConsolePuzzle_2.Utility
         static void DisableQuickEdit()
         {
             IntPtr conHandle = GetStdHandle(STD_INPUT_HANDLE);
-            int mode;
 
-            if (!GetConsoleMode(conHandle, out mode))
+            if (!GetConsoleMode(conHandle, out int mode))
             {
                 // error getting the console mode. Exit.
                 return;
             }
 
-            mode = mode & ~(QuickEditMode | ExtendedFlags);
+            mode &= ~(QuickEditMode | ExtendedFlags);
 
             if (!SetConsoleMode(conHandle, mode))
             {
@@ -101,7 +100,7 @@ namespace ConsolePuzzle_2.Utility
         /// <returns></returns>
         public static string CenterText(string textToCenter, bool bothSides = false, bool spacesOnly = false)
         {
-            string _halfSpaces = new string(' ', Math.Clamp(((Console.WindowWidth - textToCenter.Length) / 2) - 1,0, Console.WindowWidth));
+            string _halfSpaces = new(' ', Math.Clamp(((Console.WindowWidth - textToCenter.Length) / 2) - 1,0, Console.WindowWidth));
 
             if (spacesOnly)
                 return bothSides ? _halfSpaces + " " + _halfSpaces + " " : _halfSpaces;

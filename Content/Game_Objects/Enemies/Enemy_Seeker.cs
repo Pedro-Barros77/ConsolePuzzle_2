@@ -1,7 +1,5 @@
 ﻿using ConsolePuzzle_2.Services.Models;
 using ConsolePuzzle_2.Utility;
-using System;
-using System.Collections.Generic;
 using static ConsolePuzzle_2.Utility.Enums;
 
 namespace ConsolePuzzle_2.Content.Game_Objects.Enemies

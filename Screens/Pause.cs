@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using ConsolePuzzle_2.Content;
+﻿using ConsolePuzzle_2.Content;
 using ConsolePuzzle_2.Services.Models;
 using static ConsolePuzzle_2.Utility.Enums;
 using static ConsolePuzzle_2.Utility.ConsoleUtility;

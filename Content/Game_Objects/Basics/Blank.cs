@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using static ConsolePuzzle_2.Utility.Enums;
+﻿using static ConsolePuzzle_2.Utility.Enums;
 
 namespace ConsolePuzzle_2.Content.Game_Objects.Basics
 {

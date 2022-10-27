@@ -10,6 +10,7 @@
 	  <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>ConsolePuzzle_2.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

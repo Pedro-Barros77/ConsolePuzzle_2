@@ -2,7 +2,6 @@
 using ConsolePuzzle_2.Services.Models;
 using static ConsolePuzzle_2.Utility.Enums;
 using static ConsolePuzzle_2.Utility.ConsoleUtility;
-using ConsolePuzzle_2.Utility;
 
 namespace ConsolePuzzle_2.Screens
 {

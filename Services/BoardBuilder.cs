@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using ConsolePuzzle_2.Content;
+﻿using ConsolePuzzle_2.Content;
 using ConsolePuzzle_2.Content.Game_Objects;
 using ConsolePuzzle_2.Content.Game_Objects.Enemies;
 using ConsolePuzzle_2.Services.Models;

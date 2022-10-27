@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using static ConsolePuzzle_2.Utility.Enums;
+﻿using static ConsolePuzzle_2.Utility.Enums;
 using static ConsolePuzzle_2.Utility.ConsoleUtility;
 using ConsolePuzzle_2.Services.Models;
 using ConsolePuzzle_2.Content;
@@ -55,7 +53,7 @@ namespace ConsolePuzzle_2.Screens
             Header.Lines[7].Add(new LineItem("06- " + menuController.GetString("Portals"), centerLine: true, alignRows: true, active: gameController.CompletedTutorials.Count >= 6));
             Header.Lines[8].Add(new LineItem("07- " + menuController.GetString("Boxes"), centerLine: true, alignRows: true, active: gameController.CompletedTutorials.Count >= 7));
             Header.Lines[9].Add(new LineItem("08- " + menuController.GetString("The Guards"), centerLine: true, alignRows: true, active: gameController.CompletedTutorials.Count >= 8));
-            Header.Lines[10].Add(new LineItem("09- " + menuController.GetString("The Cannons"), centerLine: true, alignRows: true, active: gameController.CompletedTutorials.Count >= 9 || true));
+            Header.Lines[10].Add(new LineItem("09- " + menuController.GetString("The Cannons"), centerLine: true, alignRows: true, active: gameController.CompletedTutorials.Count >= 9));
             Header.Lines[11].Add(new LineItem("10- " + menuController.GetString("The Seekers"), centerLine: true, alignRows: true, active: gameController.CompletedTutorials.Count >= 10));
             Header.Lines[12].Add(new LineItem("11- " + menuController.GetString("Multiplayer"), centerLine: true, alignRows: true, active: gameController.CompletedTutorials.Count >= 11));
             Header.Lines[13].Add(new LineItem("12- " + menuController.GetString("Field of View"), centerLine: true, alignRows: true, active: gameController.CompletedTutorials.Count >= 11));

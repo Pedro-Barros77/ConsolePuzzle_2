@@ -1,13 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading;
-using ConsolePuzzle_2.Content.Game_Objects;
-using ConsolePuzzle_2.Services.Models;
-using static ConsolePuzzle_2.Utility.Enums;
+﻿using ConsolePuzzle_2.Services.Models;
 using static ConsolePuzzle_2.Utility.ConsoleUtility;
-using ConsolePuzzle_2.Content.Game_Objects.Basics;
-using System.Xml;
-using Newtonsoft.Json.Linq;
 
 namespace ConsolePuzzle_2.Content.Tutorials
 {
