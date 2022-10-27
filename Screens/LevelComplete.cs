@@ -25,13 +25,13 @@ namespace ConsolePuzzle_2.Screens
         {
             if (isTutorial)
             {
-                if (!gameController.CompletedTutorials.Contains(LevelNumber))
-                    gameController.CompletedTutorials.Add(LevelNumber);
+                if (!gameController.CompletedTutorials.Contains(gameLevel.LevelNumber))
+                    gameController.CompletedTutorials.Add(gameLevel.LevelNumber);
             }
             else
             {
-                if (!gameController.CompletedLevels.Contains(LevelNumber))
-                    gameController.CompletedLevels.Add(LevelNumber);
+                if (!gameController.CompletedLevels.Contains(gameLevel.LevelNumber))
+                    gameController.CompletedLevels.Add(gameLevel.LevelNumber);
             }
 
             OnOptionChanged();
